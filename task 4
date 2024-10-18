@@ -1,0 +1,13 @@
+a = int(input('Начало отрезка: '))
+b = int(input('Конец отрезка: '))
+summ = 0
+count = 0
+print('Числа из отрезка, которые делятся на 3:')
+for number in range(a, b + 1):
+    if number % 3 == 0:
+        summ += number
+        count += 1
+        print(number)
+    if count > 0:
+        result = summ / count
+print('Среднее арифметическое этих чисел: ', result)
