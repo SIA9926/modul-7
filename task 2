@@ -1,0 +1,6 @@
+summ = 0
+for i in range(12):
+    number = int(input('Введите зарплату сотрудника: '))
+    summ += number
+    mid_sum = summ / 12
+print('Средняя зарплата за год:', mid_sum)
