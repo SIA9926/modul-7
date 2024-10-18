@@ -1,1 +1,7 @@
-
+count = 0
+for i in range(10):
+    number = int(input('Введите номер человека: '))
+    num_2 = number + 1
+if num_2 > 0 and num_2 % 2 == 0:
+    count += 1
+print('Количество корректных номеров (чётных и положительных): ', count)
