@@ -1,0 +1,5 @@
+for num in range(10, 100):
+    first_num = num // 10
+    second_num = num % 10
+    if num == first_num * second_num * 3:
+        print(num)
